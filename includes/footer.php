@@ -8,6 +8,6 @@
 		</a>
 	</div>
 	<p>
-		<?= $LANG['F_POWERED_BY'] ?> <a href="https://symbiota.org/" target="_blank">Symbiota</a>.
+		<?= $LANG['F_POWERED_BY'] ?> <a href="https://symbiota.org/" target="_blank">Symbiota</a> v3.4.1.
 	</p>
 </footer>

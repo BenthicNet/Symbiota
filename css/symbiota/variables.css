@@ -1,12 +1,12 @@
 /* Variables
    ========================================================================== */
 :root {
-  --header-bg-image: url("../../images/layout/jonathan-borba-Ui73wdp0wok-unsplash.jpg");
-  --header-bg-color: #2f6e5378; /** Transparent color if adding header bg-image **/
+  --header-bg-image: url("");
+  --header-bg-color: #5f8296; /** Transparent color if adding header bg-image **/
   --header-font-color: #fff;
   --brand-font-size: 1.5rem;
   --logo-width: 120px;
-  --menu-top-bg-color: #1b3d2f;
+  --menu-top-bg-color: #375f73;
   --menu-font-size: 1rem;
   --body-bg-color: #fafafa;
   --body-text-color: #000000;
@@ -18,7 +18,7 @@
   --darkest-color: #1b3d2f;
   --medium-color: #5a5a53;
   --light-color: #f2f0e9;
-  --bright-color: #b9d432;
+  --bright-color: #73b4eb;
   --danger-color: #b31b1b;
   --max-innertext-width: 1024px;
 }
