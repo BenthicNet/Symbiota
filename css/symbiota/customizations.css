@@ -8,6 +8,11 @@ This stylesheet is defined last and will override all previously loaded sheets. 
   height: 6em;
 }
 
+.bold-blue {
+  font-weight: bold;
+  color: var(--menu-top-bg-color);
+}
+
 .state-map {
   float: right;
   margin-left: 20px;   /* Adds space between image and text */

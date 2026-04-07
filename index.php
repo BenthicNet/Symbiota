@@ -40,10 +40,10 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 			<div>
 				<img src="StateMap.png" class="align-right" alt="Map of Wisconsin showing all waterways colored by size from light to dark blue and an orange star where each participating institution is located.">
 				<p>
-					<span>Welcome to BenthicNet</span>, a collaborative project among UW-Parkside, UW-Madison, UW-Stevens Point, and the Milwaukee Public Museum aimed at expanding access to collections of freshwater insects and other invertebrates that are used for biomonitoring. Initial funding for this project has been provided by the Freshwater Collaborative of Wisconsin.
+					<span class="bold-blue">Welcome to BenthicNet</span>, a collaborative project among UW-Parkside, UW-Madison, UW-Stevens Point, and the Milwaukee Public Museum aimed at expanding access to collections of freshwater insects and other invertebrates that are used for biomonitoring. Initial funding for this project has been provided by the Freshwater Collaborative of Wisconsin.
 				</p>
 				<p>
-					<span>Biomonitoring</span> is the practice of analyzing changes in the numbers and types of freshwater invertebrates to assess water health/quality. Biomonitoring tools first developed in Wisconsin have now been adapted for use globally.
+					<span class="bold-blue">Biomonitoring</span> is the practice of analyzing changes in the numbers and types of freshwater invertebrates to assess water health/quality. Biomonitoring tools first developed in Wisconsin have now been adapted for use globally.
 				</p>
 				<h3>Portal Scope</h3>
 				<p>
