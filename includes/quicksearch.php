@@ -9,8 +9,12 @@
 		<!-- -------------------------QUICK SEARCH SETTINGS--------------------------------------- -->
 		<form name="quicksearch" id="quicksearch" action="<?php echo $CLIENT_ROOT; ?>/taxa/index.php" method="get" onsubmit="return verifyQuickSearch(this);">
 			<div class="quicksearchcontainer">
-				<div id="quicksearchtext"><?php echo (isset($LANG['QSEARCH_SEARCH']) ? $LANG['QSEARCH_SEARCH'] : 'Taxon Search'); ?></div>
-				<input id="taxa" type="text" name="taxon" />
+				<div id="quicksearchtext">
+					<?php echo (isset($LANG['QSEARCH_SEARCH']) ? $LANG['QSEARCH_SEARCH'] : 'Taxon Search'); ?>
+				</div>
+				<p>
+					<input id="taxa" type="text" name="taxon" />
+				</p>
 				<button name="formsubmit" id="quicksearchbutton" type="submit" value="Search Terms"><?php echo (isset($LANG['QSEARCH_SEARCH_BUTTON']) ? $LANG['QSEARCH_SEARCH_BUTTON'] : 'Search'); ?></button>
 			</div>
 		</form>

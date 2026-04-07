@@ -44,11 +44,11 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 				<p>
 					<span class="bold-blue">Biomonitoring</span> is the practice of analyzing changes in the numbers and types of freshwater invertebrates to assess water health/quality. Biomonitoring tools first developed in Wisconsin have now been adapted for use globally.
 				</p>
-				<h3>Portal Scope</h3>
+				<h4>Portal Scope</h4>
 				<p>
 					This portal aims ro serve as a collaborative resource to integrate biodiversity data about freshwater benthic macroinvertebartes. the portal allows the generation of maps, checklists and other interactive biodiversity data projects. Users specialized in benthic macroinvertebrate taxonomy are invited to join and contribute to the curation of the Taxonomic Thesaurus. The data within the portal are freely available for use, but proper citation is encouraged.
 				</p>
-				<h3>Contributing Data</h3>
+				<h4>Contributing Data</h4>
 				<p>
 					The BenthicNet portal is primarily for research and reference collections that intend to actively use it for managing specimen occurrence records. For further information or to have a collection data ingested, please contact Jessica Orlofske (orlofske@uwp.edu) or Craig Brabant (brabant@entomology.wisc.edu).
 				</p>

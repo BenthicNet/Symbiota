@@ -101,7 +101,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 							<?= $LANG['H_SITEMAP'] ?>
 						</a>
 					</li>
-					<li>
+					<!--<li>
 						<a href="#">Example Dropdown</a>
 						<ul>
 							<li>
@@ -119,7 +119,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 								</ul>
 							</li>
 						</ul>
-					</li>
+					</li>-->
 					<li id="lang-select-li">
 						<label for="language-selection" class="screen-reader-only"><?= $LANG['H_SELECT_LANGUAGE'] ?>: </label>
 						<select oninput="setLanguage(this)" id="language-selection" name="language-selection">

@@ -4,7 +4,7 @@ This stylesheet is defined last and will override all previously loaded sheets. 
  */
  
 .bold-blue {
-  font-weight: bold;
+  font-weight: bolder;
   color: var(--menu-top-bg-color);
 }
 
