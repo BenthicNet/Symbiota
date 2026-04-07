@@ -4,19 +4,19 @@
 		//include($SERVER_ROOT . '/accessibility/module.php');
 		?>
 		<a href="https://freshwater.wisconsin.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
-			<img src="<?= $CLIENT_ROOT; ?>/images/layout/FCW.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+			<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_fcw.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
 		</a>
 				<a href="https://freshwater.wisconsin.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
-			<img src="<?= $CLIENT_ROOT; ?>/images/layout/FCW.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+			<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_uwp.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
 		</a>
 				<a href="https://freshwater.wisconsin.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
-			<img src="<?= $CLIENT_ROOT; ?>/images/layout/FCW.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+			<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_uwsp.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
 		</a>
 				<a href="https://freshwater.wisconsin.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
-			<img src="<?= $CLIENT_ROOT; ?>/images/layout/FCW.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+			<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_wisc.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
 		</a>
 				<a href="https://freshwater.wisconsin.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
-			<img src="<?= $CLIENT_ROOT; ?>/images/layout/FCW.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+			<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_mpm.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
 		</a>
 	</div>
 	<p>
