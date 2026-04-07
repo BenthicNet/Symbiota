@@ -21,7 +21,6 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 	?>
 	<div class="navpath"></div>
 	<main id="innertext">
-		<h1 class="page-heading"><?php echo $DEFAULT_TITLE; ?> <?php echo $LANG['HOME']; ?></h1>
 		<?php
 		include($SERVER_ROOT . '/includes/quicksearch.php');
 		?>
@@ -38,7 +37,7 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 			//Default Language
 			?>
 			<div>
-				<img src="StateMap.png" class="align-right" alt="Map of Wisconsin showing all waterways colored by size from light to dark blue and an orange star where each participating institution is located.">
+				<img src="<?= $CLIENT_ROOT ?>/images/layout/StateMap.png" class="state-map" alt="Map of Wisconsin showing all waterways colored by size from light to dark blue and an orange star where each participating institution is located.">
 				<p>
 					<span class="bold-blue">Welcome to BenthicNet</span>, a collaborative project among UW-Parkside, UW-Madison, UW-Stevens Point, and the Milwaukee Public Museum aimed at expanding access to collections of freshwater insects and other invertebrates that are used for biomonitoring. Initial funding for this project has been provided by the Freshwater Collaborative of Wisconsin.
 				</p>
