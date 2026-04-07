@@ -45,8 +45,8 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 			<div class="top-brand">
 				<!--<div class="brand-name">-->
 					<a href="<?= $CLIENT_ROOT ?>">
-						<div class="image-container">
-							<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" class="logo-banner" alt="BenthicNet logo">
+						<div class="image-container logo-banner">
+							<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
 						</div>
 					</a>				
 					<!--<h1>BenthicNet</h1>

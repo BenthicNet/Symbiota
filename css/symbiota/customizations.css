@@ -23,4 +23,5 @@ This stylesheet is defined last and will override all previously loaded sheets. 
 
 .logo-banner {
   height: 200px;
+  margin: auto;
 }
