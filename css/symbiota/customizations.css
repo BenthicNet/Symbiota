@@ -16,11 +16,6 @@ This stylesheet is defined last and will override all previously loaded sheets. 
   filter: drop-shadow(4px 4px 8px gray);  /* Contoured drop shadow for transparent png */
 }
 
-.brand-name {
-  align-items: center;
-  justify-content: center;
-}
-
 .logo-banner {
   height: 200px;
   margin: auto;

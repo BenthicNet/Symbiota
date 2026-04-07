@@ -56,10 +56,10 @@ nav.top-login > span > form{
 }
 
 .top-brand img {
-  width: auto;
-  max-height: 200px;
+  height: 6em;
   object-fit: contain; /* scale image keeping proportions */
   filter: brightness(1);
+  justify-content: center;
 }
 
 .top-brand .brand-name {
