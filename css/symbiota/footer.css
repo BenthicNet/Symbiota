@@ -12,6 +12,7 @@ footer {
   /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
   /* column-gap: 3rem; */
   align-items: center;
+  justify-items: center;
   margin: 0 auto;
   padding: 2rem 0;
   max-width: var(--max-innertext-width);
@@ -20,7 +21,7 @@ footer {
 .logo-gallery img {
   max-width: 200px;
   height: auto;
-  max-height: 80px;
+  max-height: 60px;
   object-fit: contain;
 }
 
@@ -29,7 +30,7 @@ footer {
 /* Medium screens and up */
 @media (min-width: 768px) {
   .logo-gallery {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
     column-gap: 3rem;
     justify-content: center;
   }
