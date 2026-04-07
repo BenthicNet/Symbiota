@@ -8,6 +8,16 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 <div class="header-wrapper">
 	<header>
 		<div class="top-wrapper">
+			<div class="spacer"></div>
+			
+			<div class="top-brand">
+				<a href="<?= $CLIENT_ROOT ?>">
+					<div class="image-container">
+						<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
+					</div>
+				</a>
+			</div>
+
 			<a class="screen-reader-only" href="#end-nav"><?= $LANG['H_SKIP_NAV'] ?></a>
 			<nav class="top-login" aria-label="horizontal-nav">
 				<?php
@@ -42,13 +52,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 				}
 				?>
 			</nav>
-			<div class="top-brand">
-				<a href="<?= $CLIENT_ROOT ?>">
-					<div class="image-container">
-						<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
-					</div>
-				</a>
-			</div>
+
 		</div>
 		<div class="menu-wrapper">
 			<!-- Hamburger icon -->
