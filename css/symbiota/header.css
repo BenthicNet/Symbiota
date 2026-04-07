@@ -56,9 +56,8 @@ nav.top-login > span > form{
 }
 
 .top-brand img {
-  width: var(--logo-width);
-  max-width: 100px;
-  height: auto;
+  width: auto;
+  max-height: 200px;
   object-fit: contain; /* scale image keeping proportions */
   filter: brightness(1);
 }
