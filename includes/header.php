@@ -42,8 +42,8 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 				}
 				?>
 			</nav>
-			<div class="top-brand">
-				<!--<div class="brand-name">-->
+			<!--<div class="top-brand">
+				<div class="brand-name">-->
 					<a href="<?= $CLIENT_ROOT ?>">
 						<div class="image-container logo-banner">
 							<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
@@ -51,8 +51,8 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 					</a>				
 					<!--<h1>BenthicNet</h1>
 					<h2>Your Window into Wisconsin's Freshwater Benthic Macroinvertebrates</h2>-->
-				<!--</div>-->
-			</div>
+				<!--</div>
+			</div>-->
 		</div>
 		<div class="menu-wrapper">
 			<!-- Hamburger icon -->
