@@ -4,7 +4,7 @@ This stylesheet is defined last and will override all previously loaded sheets. 
  */
  
 .bold-blue {
-  font-weight: bolder;
+  font-weight: 900;
   color: var(--menu-top-bg-color);
 }
 
@@ -16,7 +16,11 @@ This stylesheet is defined last and will override all previously loaded sheets. 
   filter: drop-shadow(4px 4px 8px gray);  /* Contoured drop shadow for transparent png */
 }
 
+.brand-name {
+  align-items: center;
+  justify-content: center;
+}
+
 .logo-banner {
-  margin: auto;
-  height: 6em;
+  height: 200px;
 }
