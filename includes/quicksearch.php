@@ -12,10 +12,10 @@
 				<div id="quicksearchtext">
 					<?php echo (isset($LANG['QSEARCH_SEARCH']) ? $LANG['QSEARCH_SEARCH'] : 'Taxon Search'); ?>
 				</div>
+				<input id="taxa" type="text" name="taxon" />
 				<p>
-					<input id="taxa" type="text" name="taxon" />
+					<button name="formsubmit" id="quicksearchbutton" type="submit" value="Search Terms"><?php echo (isset($LANG['QSEARCH_SEARCH_BUTTON']) ? $LANG['QSEARCH_SEARCH_BUTTON'] : 'Search'); ?></button>
 				</p>
-				<button name="formsubmit" id="quicksearchbutton" type="submit" value="Search Terms"><?php echo (isset($LANG['QSEARCH_SEARCH_BUTTON']) ? $LANG['QSEARCH_SEARCH_BUTTON'] : 'Search'); ?></button>
 			</div>
 		</form>
 	</div>
