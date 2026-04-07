@@ -3,4 +3,15 @@ Place your CSS customizations here.
 This stylesheet is defined last and will override all previously loaded sheets. You may reference variables defined in variables.css 
  */
  
- 
+.brand-name img {
+  margin: auto;
+  height: 6em;
+}
+
+.state-map {
+  float: right;
+  margin-left: 20px;   /* Adds space between image and text */
+  margin-bottom: 10px; /* Adds space below the image */
+  width: 300px;        /* Optional: sets a fixed size */
+  filter: drop-shadow(4px 4px 8px gray);  /* Contoured drop shadow for transparent png */
+}

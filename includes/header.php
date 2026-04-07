@@ -43,14 +43,14 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 				?>
 			</nav>
 			<div class="top-brand">
-				<a href="<?= $CLIENT_ROOT ?>">
-					<div class="image-container">
-						<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
-					</div>
-				</a>
 				<div class="brand-name">
-					<h1>BenthicNet</h1>
-					<h2>Your Window into Wisconsin's Freshwater Benthic Macroinvertebrates</h2>
+					<a href="<?= $CLIENT_ROOT ?>">
+						<div class="image-container">
+							<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
+						</div>
+					</a>				
+					<!--<h1>BenthicNet</h1>
+					<h2>Your Window into Wisconsin's Freshwater Benthic Macroinvertebrates</h2>-->
 				</div>
 			</div>
 		</div>
