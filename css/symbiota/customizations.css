@@ -60,10 +60,4 @@ This stylesheet is defined last and will override all previously loaded sheets. 
   justify-content: center;
 }
 
-/* Medium-large desktop screens and up */
-@media screen and (min-width: 1024px) {
-  .image-container {
-    width: var(--logo-width);
-  }
-}
 
