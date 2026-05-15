@@ -108,6 +108,7 @@ header a:hover {
 
 .image-container {
   width: 100%;
+  max-width: var(--logo-width);
 }
 
 .image-container img {
