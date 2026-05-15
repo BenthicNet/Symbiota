@@ -43,6 +43,9 @@ This stylesheet is defined last and will override all previously loaded sheets. 
 }
 
 .brand-logo {
+  grid-area: brand;
+  justify-self: start;
+  padding-left: 3rem;
   /* align a and brand-name */
   clear: both;
   padding-top: 0.5rem;
