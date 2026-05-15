@@ -3,7 +3,6 @@
 		<a href="https://freshwater.wisconsin.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
 			<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_fcw.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
 		</a>
-		<?= $LANG['F_POWERED_BY'] ?> <a href="https://symbiota.org/" target="_blank">Symbiota</a> v<?= $CODE_VERSION ?>.
 	</div>
 	<p>
 		<?= $LANG['F_POWERED_BY'] ?> <a href="https://symbiota.org/" target="_blank">Symbiota</a> v<?= $CODE_VERSION ?>.
