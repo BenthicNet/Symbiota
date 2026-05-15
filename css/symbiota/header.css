@@ -379,7 +379,7 @@ ul.menu > ul li{
 /* Medium-large desktop screens and up */
 @media screen and (min-width: 1024px) {
   .top-brand img {
-    max-height: var(--logo-height);
+    max-width: var(--logo-width);
   }
 }
 
