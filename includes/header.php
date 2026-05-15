@@ -65,16 +65,21 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 						</a>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT . $collectionSearchPage ?>">
-							<?= $LANG['H_SEARCH'] ?>
-						</a>
+						<a href="#">Search</a>
+						<ul>
+							<li>
+								<a href="<?= $CLIENT_ROOT . $collectionSearchPage ?>">
+									<?= $LANG['H_SEARCH'] ?>
+								</a>
+							</li>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/collections/map/index.php" rel="noopener noreferrer">
+									<?= $LANG['H_MAP_SEARCH'] ?>
+								</a>
+							</li>
+						</ul>
 					</li>
-					<li>
-						<a href="<?= $CLIENT_ROOT ?>/collections/map/index.php" rel="noopener noreferrer">
-							<?= $LANG['H_MAP_SEARCH'] ?>
-						</a>
-					</li>
-					<li>
+					<!-- <li>
 						<a href="<?= $CLIENT_ROOT ?>/checklists/index.php">
 							<?= $LANG['H_INVENTORIES'] ?>
 						</a>
@@ -82,6 +87,11 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 					<li>
 						<a href="<?= $CLIENT_ROOT ?>/imagelib/search.php">
 							<?= $LANG['H_IMAGES'] ?>
+						</a>
+					</li> -->
+					<li>
+						<a href="<?= $CLIENT_ROOT ?>/about.php">
+							<?= $LANG['H_ABOUT_PROJECT'] ?>
 						</a>
 					</li>
 					<li>
