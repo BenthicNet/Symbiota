@@ -9,6 +9,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 	<header>
 		<div class="top-wrapper">
 			<div class="spacer"></div>
+			<div>
 			<!-- <div class="header-container"> -->
   				<!-- <div class="header-large-left"> -->
 					<!-- <div class="top-brand"> -->
@@ -21,6 +22,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 
 				<!-- </div>
 				<div class="header-stacked-right"> -->
+			</div>
 					<a class="screen-reader-only" href="#end-nav"><?= $LANG['H_SKIP_NAV'] ?></a>
 					<nav class="top-login" aria-label="horizontal-nav">
 
