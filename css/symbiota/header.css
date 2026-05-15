@@ -42,7 +42,7 @@ header {
 
 
 nav.top-login > span > form{
-  display: inline;
+  display: block;
   margin: 0;
   padding: 0;
 
