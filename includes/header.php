@@ -31,7 +31,6 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 						?>
 						<!-- <div class="header-stacked-top"> -->
 							<div class="welcome-text bottom-breathing-room-rel">
-								<!-- <?= //$LANG['H_WELCOME'] . ' ' . $USER_DISPLAY_NAME ?> -->
 
 							</div>
 						<!-- </div>
