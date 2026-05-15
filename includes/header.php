@@ -7,8 +7,8 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 ?>
 <div class="header-wrapper">
 	<header>
-		<div class="top-wrapper">
-			<div class="spacer"></div>
+		<!-- <div class="top-wrapper"> -->
+		<!--	<div class="spacer"></div> -->
 			<div class="header-container">
   				<div class="header-large-left">
 					<div class="top-brand">
@@ -63,7 +63,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 					</nav>
 				</div> <!-- close stacked-right -->
 			</div> <!-- close header-container -->
-		</div>  <!-- close top-wrapper -->
+		<!-- </div>   close top-wrapper -->
 		<div class="menu-wrapper">
 			<!-- Hamburger icon -->
 			<input class="side-menu" type="checkbox" id="side-menu" name="side-menu" />
