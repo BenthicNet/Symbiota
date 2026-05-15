@@ -9,51 +9,61 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 	<header>
 		<div class="top-wrapper">
 			<div class="spacer"></div>
-			
-			<div class="top-brand">
-				<a href="<?= $CLIENT_ROOT ?>">
-					<div class="image-container">
-						<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
+			<div class="header-container">
+  				<div class="header-large-left">
+					<div class="top-brand">
+						<a href="<?= $CLIENT_ROOT ?>">
+							<div class="image-container">
+								<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
+							</div>
+						</a>
 					</div>
-				</a>
-			</div>
+				<div class="header-stacked-right">
+					<a class="screen-reader-only" href="#end-nav"><?= $LANG['H_SKIP_NAV'] ?></a>
+					<nav class="top-login" aria-label="horizontal-nav">
 
-			<a class="screen-reader-only" href="#end-nav"><?= $LANG['H_SKIP_NAV'] ?></a>
-			<nav class="top-login" aria-label="horizontal-nav">
-				<?php
-				if ($USER_DISPLAY_NAME) {
-					?>
-					<div class="welcome-text bottom-breathing-room-rel">
-						<?= $LANG['H_WELCOME'] . ' ' . $USER_DISPLAY_NAME ?>!
-					</div>
-					<span id="profile">
-						<form name="profileForm" method="post" action="<?= $CLIENT_ROOT . '/profile/viewprofile.php' ?>">
-							<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" name="profileButton" type="submit"><?= $LANG['H_MY_PROFILE'] ?></button>
-						</form>
-					</span>
-					<span id="logout">
-						<form name="logoutForm" method="post" action="<?= $CLIENT_ROOT ?>/profile/index.php?submit=logout">
-							<button class="button button-secondary bottom-breathing-room-rel left-breathing-room-rel" name="logoutButton" type="submit"><?= $LANG['H_LOGOUT'] ?></button>
-						</form>
-					</span>
 					<?php
-				} else {
+					if ($USER_DISPLAY_NAME) {
+						?>
+						<div class="header-stacked-top">
+							<div class="welcome-text bottom-breathing-room-rel">
+								<?= $LANG['H_WELCOME'] . ' ' . $USER_DISPLAY_NAME ?>!
+							</div>
+						</div>
+						<div class="header-stacked-bottom">
+							<span id="profile">
+								<form name="profileForm" method="post" action="<?= $CLIENT_ROOT . '/profile/viewprofile.php' ?>">
+									<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" name="profileButton" type="submit"><?= $LANG['H_MY_PROFILE'] ?></button>
+								</form>
+							</span>
+							<span id="logout">
+								<form name="logoutForm" method="post" action="<?= $CLIENT_ROOT ?>/profile/index.php?submit=logout">
+									<button class="button button-secondary bottom-breathing-room-rel left-breathing-room-rel" name="logoutButton" type="submit"><?= $LANG['H_LOGOUT'] ?></button>
+								</form>
+							</span>
+						</div>
+						<?php
+					} else {
+						?>
+						<div class="header-stacked-top"></div>
+						<div class="header-stacked-bottom">
+							<span id="contactUs">
+								<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" onclick="window.location.href='#'"><?= $LANG['H_CONTACT_US'] ?></button>
+							</span>
+							<span id="login">
+								<form name="loginForm" method="post" action="<?= $CLIENT_ROOT . "/profile/index.php" ?>">
+									<input name="refurl" type="hidden" value="<?= htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_COMPAT | ENT_HTML401 | ENT_SUBSTITUTE) . "?" . htmlspecialchars($_SERVER['QUERY_STRING'], ENT_QUOTES) ?>">
+									<button class="button button-secondary bottom-breathing-room-rel left-breathing-room-rel" name="loginButton" type="submit"><?= $LANG['H_LOGIN'] ?></button>
+								</form>
+							</span>
+						</div>
+						<?php
+					}
 					?>
-					<span id="contactUs">
-						<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" onclick="window.location.href='#'"><?= $LANG['H_CONTACT_US'] ?></button>
-					</span>
-					<span id="login">
-						<form name="loginForm" method="post" action="<?= $CLIENT_ROOT . "/profile/index.php" ?>">
-							<input name="refurl" type="hidden" value="<?= htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_COMPAT | ENT_HTML401 | ENT_SUBSTITUTE) . "?" . htmlspecialchars($_SERVER['QUERY_STRING'], ENT_QUOTES) ?>">
-							<button class="button button-secondary bottom-breathing-room-rel left-breathing-room-rel" name="loginButton" type="submit"><?= $LANG['H_LOGIN'] ?></button>
-						</form>
-					</span>
-					<?php
-				}
-				?>
-			</nav>
-
-		</div>
+					</nav>
+				</div> <!-- close stacked-right -->
+			</div> <!-- close header-container -->
+		</div> <!-- close top-wrapper -->
 		<div class="menu-wrapper">
 			<!-- Hamburger icon -->
 			<input class="side-menu" type="checkbox" id="side-menu" name="side-menu" />
