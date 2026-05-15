@@ -79,7 +79,6 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 							<li>Andrew Malacara</li>
 							<li>Jack Stecker</li>
 							<li>Elyse Upthagrove</li>
-							<li></li>
 						</ul>
 					</div>
 				</div>
