@@ -8,8 +8,8 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 <div class="header-wrapper">
 	<header>
 		<div class="top-wrapper">
-			<div class="header-container">
-  				<div class="header-large-left">
+			<!-- <div class="header-container"> -->
+  				<!-- <div class="header-large-left"> -->
 					<!-- <div class="top-brand"> -->
 						<a href="<?= $CLIENT_ROOT ?>">
 							<div class="image-container">
@@ -19,20 +19,20 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 					<!-- </div> -->
 					 			<div class="spacer"></div>
 
-				</div>
-				<div class="header-stacked-right">
+				<!-- </div>
+				<div class="header-stacked-right"> -->
 					<a class="screen-reader-only" href="#end-nav"><?= $LANG['H_SKIP_NAV'] ?></a>
-					<!-- <nav class="top-login" aria-label="horizontal-nav"> -->
+					<nav class="top-login" aria-label="horizontal-nav">
 
 					<?php
 					if ($USER_DISPLAY_NAME) {
 						?>
-						<div class="header-stacked-top">
+						<!-- <div class="header-stacked-top"> -->
 							<div class="welcome-text bottom-breathing-room-rel">
 								<?= $LANG['H_WELCOME'] . ' ' . $USER_DISPLAY_NAME ?>!
 							</div>
-						</div>
-						<div class="header-stacked-bottom">
+						<!-- </div>
+						<div class="header-stacked-bottom"> -->
 							<span id="profile">
 								<form name="profileForm" method="post" action="<?= $CLIENT_ROOT . '/profile/viewprofile.php' ?>">
 									<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" name="profileButton" type="submit"><?= $LANG['H_MY_PROFILE'] ?></button>
@@ -43,7 +43,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 									<button class="button button-secondary bottom-breathing-room-rel left-breathing-room-rel" name="logoutButton" type="submit"><?= $LANG['H_LOGOUT'] ?></button>
 								</form>
 							</span>
-						</div>
+						<!-- </div> -->
 						<?php
 					} else {
 						?>
@@ -62,9 +62,9 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 						<?php
 					}
 					?>
-					<!-- </nav> -->
-				</div> <!-- close stacked-right -->
-			</div> <!-- close header-container -->
+					</nav>
+				<!-- </div> close stacked-right -->
+			<!-- </div> close header-container -->
 		</div>  <!-- close top-wrapper -->
 		<div class="menu-wrapper">
 			<!-- Hamburger icon -->
