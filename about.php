@@ -38,6 +38,25 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 				<p>
 					<span class="bold-blue">BenthicNet</span> is currently a collaborative project among UW-Parkside, UW-Madison, UW-Stevens Point, and the Milwaukee Public Museum with initial funding from the Freshwater Collaborative of Wisconsin.
 				</p>
+				<div class="logo-gallery">
+					<a href="https://freshwater.wisconsin.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
+						<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_fcw.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+					</a>
+					<a href="https://www.uwp.edu/learn/beyondtheclassroom/research/naturalhistorycollections.cfm" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
+						<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_uwp.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+					</a>
+					<a href="https://wirc.wisc.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
+						<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_wisc.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+					</a>
+					<img> <!-- empty tag to align flexbox grid -->
+					<a href="https://www3.uwsp.edu/cnr-ap/biomonitoring/Pages/default.aspx" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
+						<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_uwsp.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+					</a>
+					<a href="https://www.mpm.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
+						<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_mpm.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
+					</a>
+				</div>
+
 				<h4>Contributing Data</h4>
 				<p>
 					To suggest additions, corrections, or to have collection data ingested, please contact Jessica Orlofske (orlofske@uwp.edu) or Craig Brabant (brabant@entomology.wisc.edu).
