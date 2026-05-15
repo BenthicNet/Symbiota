@@ -56,7 +56,18 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 						<img src="<?= $CLIENT_ROOT; ?>/images/layout/logo_mpm.png"  alt="<?= $LANG['F_FCW_LOGO'] ?>" />
 					</a>
 				</div>
-
+				<h4>Contributors</h4>
+				<p>
+					<ul>
+						<li>Jessica Orlofske</li>
+						<li>Craig Brabant</li>
+						<li>Jeff Dimick</li>
+						<li>Chris Tyrrell</li>
+						<li>Nick Dowdy</li>
+						<li>Julia Colby</li>
+						<li>Maybe You?</li>
+					</ul>
+				</p>
 				<h4>Contributing Data</h4>
 				<p>
 					To suggest additions, corrections, or to have collection data ingested, please contact Jessica Orlofske (orlofske@uwp.edu) or Craig Brabant (brabant@entomology.wisc.edu).
