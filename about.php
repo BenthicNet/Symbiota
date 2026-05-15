@@ -36,7 +36,7 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 			<div>
 				<img src="<?= $CLIENT_ROOT ?>/images/layout/StateMap.png" class="state-map" alt="Map of Wisconsin showing all waterways colored by size from light to dark blue and an orange star where each participating institution is located.">
 				<p>
-					<span class="bold-blue">BenthicNet</span> is currently a collaborative project among UW-Parkside, UW-Madison, UW-Stevens Point, and the Milwaukee Public Museum with initial funding from the Freshwater Collaborative of Wisconsin.
+					<span class="bold-blue">BenthicNet</span> is currently a collaborative project among UW-Parkside (UWP), UW-Madison (WISC), UW-Stevens Point (UWSP), and the Milwaukee Public Museum (MPM) with initial funding from the Freshwater Collaborative of Wisconsin.
 				</p>
 				<div class="logo-gallery">
 					<a href="https://freshwater.wisconsin.edu/" target="_blank" title="<?= $LANG['F_FCW'] ?>" aria-label="<?= $LANG['F_FCW'] ?>">
@@ -61,7 +61,7 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 					<div class="contributor-column">
 						<ul>
 							<li>Jessica Orlofske (UWP)</li>
-							<li>Craig Brabant (UW-Madison)</li>
+							<li>Craig Brabant (WISC)</li>
 							<li>Jeff Dimick (UWSP)</li>
 							<li>Chris Tyrrell (MPM)</li>
 							<li>Nick Dowdy (MPM)</li>
@@ -72,10 +72,10 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 					<div class="contributor-column">
 						<ul>
 							<li>Hannah Cantin (UWSP)</li>
-							<li>Mickayla Denis (UW-Madison)</li>
-							<li>Natalie Diller (UW-Madison)</li>
+							<li>Mickayla Denis (WISC)</li>
+							<li>Natalie Diller (WISC)</li>
 							<li>Skylar Johnston (UWP)</li>
-							<li>Cole Kupsch (UW-Madison)</li>
+							<li>Cole Kupsch (WISC)</li>
 							<li>Andrew Malacara (UWP)</li>
 							<li>Jack Stecker (UWSP)</li>
 							<li>Elyse Upthagrove (UWP)</li>
