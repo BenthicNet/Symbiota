@@ -15,3 +15,10 @@ This stylesheet is defined last and will override all previously loaded sheets. 
   max-height: 300px;        /* Optional: sets a fixed size */
   filter: drop-shadow(4px 4px 8px gray);  /* Contoured drop shadow for transparent png */
 }
+
+.contributor-row{clear:both}
+
+.contributor-column{
+    width: 50%;
+    float: left;
+}
