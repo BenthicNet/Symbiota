@@ -42,9 +42,17 @@ This stylesheet is defined last and will override all previously loaded sheets. 
   background-color: lightcoral;
 }
 
+.brand-logo img {
+  height: 6rem;
+  object-fit: contain; /* scale image keeping proportions */
+  filter: brightness(1);
+  justify-content: center;
+}
+
 /* Medium-large desktop screens and up */
 @media screen and (min-width: 1024px) {
   .brand-logo img {
     max-width: var(--logo-width);
   }
 }
+
