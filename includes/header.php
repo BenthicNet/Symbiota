@@ -7,17 +7,17 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 ?>
 <div class="header-wrapper">
 	<header>
-		<!-- <div class="top-wrapper"> -->
+		<div class="top-wrapper">
 		<!--	<div class="spacer"></div> -->
 			<div class="header-container">
   				<div class="header-large-left">
-					<div class="top-brand">
+					<!-- <div class="top-brand"> -->
 						<a href="<?= $CLIENT_ROOT ?>">
 							<div class="image-container">
 								<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_benthicnet.png" alt="BenthicNet logo">
 							</div>
 						</a>
-					</div>
+					<!-- </div> -->
 </div>
 				<div class="header-stacked-right">
 					<a class="screen-reader-only" href="#end-nav"><?= $LANG['H_SKIP_NAV'] ?></a>
@@ -64,7 +64,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 					</nav>
 				</div> <!-- close stacked-right -->
 			</div> <!-- close header-container -->
-		<!-- </div>   close top-wrapper -->
+		</div>  <!-- close top-wrapper -->
 		<div class="menu-wrapper">
 			<!-- Hamburger icon -->
 			<input class="side-menu" type="checkbox" id="side-menu" name="side-menu" />
