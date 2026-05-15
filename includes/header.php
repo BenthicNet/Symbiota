@@ -47,8 +47,8 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 					</div>
 				</a>
 
-					<h1>Symbiota Brand New Portal</h1>
-					<h2>Redesigned by the Symbiota Support Hub</h2>
+					<!-- <h1>Symbiota Brand New Portal</h1> -->
+					<!-- <h2>Redesigned by the Symbiota Support Hub</h2> -->
 				</div>
 			</div>
 		</div>
