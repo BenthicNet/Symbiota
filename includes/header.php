@@ -40,12 +40,13 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 				?>
 			</nav>
 			<div class="top-brand">
-				<a href="<?= $CLIENT_ROOT ?>">
+				<div class="brand-name">
+									<a href="<?= $CLIENT_ROOT ?>">
 					<div class="image-container">
 						<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_symbiota.png" alt="Symbiota logo">
 					</div>
 				</a>
-				<div class="brand-name">
+
 					<h1>Symbiota Brand New Portal</h1>
 					<h2>Redesigned by the Symbiota Support Hub</h2>
 				</div>
