@@ -60,25 +60,25 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 				<div class="contributor-row">
 					<div class="contributor-column">
 						<ul>
-							<li>Jessica Orlofske</li>
-							<li>Craig Brabant</li>
-							<li>Jeff Dimick</li>
-							<li>Chris Tyrrell</li>
-							<li>Nick Dowdy</li>
-							<li>Julia Colby</li>
+							<li>Jessica Orlofske (UWP)</li>
+							<li>Craig Brabant (UW-Madison)</li>
+							<li>Jeff Dimick (UWSP)</li>
+							<li>Chris Tyrrell (MPM)</li>
+							<li>Nick Dowdy (MPM)</li>
+							<li>Julia Colby (MPM)</li>
 							<li>Maybe You?</li>
 						</ul>
 					</div>
 					<div class="contributor-column">
 						<ul>
-							<li>Hannah Cantin</li>
-							<li>Mickayla Denis</li>
-							<li>Natalie Diller</li>
-							<li>Skylar Johnston</li>
-							<li>Cole Kupsch</li>
-							<li>Andrew Malacara</li>
-							<li>Jack Stecker</li>
-							<li>Elyse Upthagrove</li>
+							<li>Hannah Cantin (UWSP)</li>
+							<li>Mickayla Denis (UW-Madison)</li>
+							<li>Natalie Diller (UW-Madison)</li>
+							<li>Skylar Johnston (UWP)</li>
+							<li>Cole Kupsch (UW-Madison)</li>
+							<li>Andrew Malacara (UWP)</li>
+							<li>Jack Stecker (UWSP)</li>
+							<li>Elyse Upthagrove (UWP)</li>
 						</ul>
 					</div>
 				</div>
