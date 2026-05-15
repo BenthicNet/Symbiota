@@ -8,6 +8,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 <div class="header-wrapper">
 	<header>
 		<div class="top-wrapper">
+			<div class="spacer"></div>
 			<!-- <div class="header-container"> -->
   				<!-- <div class="header-large-left"> -->
 					<!-- <div class="top-brand"> -->
@@ -17,7 +18,6 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 							</div>
 						</a>
 					<!-- </div> -->
-					 			<div class="spacer"></div>
 
 				<!-- </div>
 				<div class="header-stacked-right"> -->
