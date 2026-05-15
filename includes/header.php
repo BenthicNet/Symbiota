@@ -13,12 +13,9 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 				<?php
 				if ($USER_DISPLAY_NAME) {
 					?>
-					<div class="welcome-text bottom-breathing-room-rel">
-						<?= $LANG['H_WELCOME'] . ' ' . $USER_DISPLAY_NAME ?>!
-					</div>
 					<span id="profile">
 						<form name="profileForm" method="post" action="<?= $CLIENT_ROOT . '/profile/viewprofile.php' ?>">
-							<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" name="profileButton" type="submit"><?= $LANG['H_MY_PROFILE'] ?></button>
+							<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" name="profileButton" type="submit"><?= $USER_DISPLAY_NAME ?></button>
 						</form>
 					</span>
 					<span id="logout">
