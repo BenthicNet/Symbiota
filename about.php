@@ -39,18 +39,18 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 			<div>
 				<img src="<?= $CLIENT_ROOT ?>/images/layout/StateMap.png" class="state-map" alt="Map of Wisconsin showing all waterways colored by size from light to dark blue and an orange star where each participating institution is located.">
 				<p>
-					<span class="bold-blue">Welcome to BenthicNet</span>, a collaborative project aimed at expanding access to collections of freshwater insects and other invertebrates that are used for biomonitoring. Initial funding for this project has been provided by the Freshwater Collaborative of Wisconsin.
+					<span class="bold-blue">Welcome to BenthicNet</span>, a collaborative project among UW-Parkside, UW-Madison, UW-Stevens Point, and the Milwaukee Public Museum aimed at expanding access to collections of freshwater insects and other invertebrates that are used for biomonitoring. Initial funding for this project has been provided by the Freshwater Collaborative of Wisconsin.
 				</p>
 				<p>
 					<span class="bold-blue">Biomonitoring</span> is the practice of analyzing changes in the numbers and types of freshwater invertebrates to assess water health/quality. Biomonitoring tools first developed in Wisconsin have now been adapted for use globally.
 				</p>
 				<h4>Portal Scope</h4>
 				<p>
-					This portal aims to serve as a collaborative resource to integrate biodiversity data about freshwater benthic macroinvertebartes. The portal allows users to interact with biodiversity data to view maps, generate checklists, and learn about species. Users specialized in benthic macroinvertebrate taxonomy are invited to join and contribute to the curation of the site's taxonomy. The data within the portal are freely available for use, but proper citation is encouraged.
+					This portal aims ro serve as a collaborative resource to integrate biodiversity data about freshwater benthic macroinvertebartes. the portal allows the generation of maps, checklists and other interactive biodiversity data projects. Users specialized in benthic macroinvertebrate taxonomy are invited to join and contribute to the curation of the Taxonomic Thesaurus. The data within the portal are freely available for use, but proper citation is encouraged.
 				</p>
 				<h4>Contributing Data</h4>
 				<p>
-					The BenthicNet portal is primarily for research and reference collections that intend to actively use it for managing specimen occurrence records. For further information or to have your collection data added, please contact Jessica Orlofske (orlofske@uwp.edu) or Craig Brabant (brabant@entomology.wisc.edu).
+					The BenthicNet portal is primarily for research and reference collections that intend to actively use it for managing specimen occurrence records. For further information or to have a collection data ingested, please contact Jessica Orlofske (orlofske@uwp.edu) or Craig Brabant (brabant@entomology.wisc.edu).
 				</p>
 			</div>
 			<?php
