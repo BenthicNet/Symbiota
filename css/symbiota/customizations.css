@@ -42,6 +42,14 @@ This stylesheet is defined last and will override all previously loaded sheets. 
   background-color: lightcoral;
 }
 
+.brand-logo {
+  /* align a and brand-name */
+  clear: both;
+  padding-top: 0.5rem;
+  grid-column: 1;
+  display: flex;
+  align-items: stretch;
+}
 .brand-logo img {
   height: 6rem;
   object-fit: contain; /* scale image keeping proportions */
