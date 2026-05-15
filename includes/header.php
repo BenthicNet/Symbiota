@@ -22,7 +22,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 				</div>
 				<div class="header-stacked-right">
 					<a class="screen-reader-only" href="#end-nav"><?= $LANG['H_SKIP_NAV'] ?></a>
-					<nav class="top-login" aria-label="horizontal-nav">
+					<!-- <nav class="top-login" aria-label="horizontal-nav"> -->
 
 					<?php
 					if ($USER_DISPLAY_NAME) {
@@ -62,7 +62,7 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 						<?php
 					}
 					?>
-					</nav>
+					<!-- </nav> -->
 				</div> <!-- close stacked-right -->
 			</div> <!-- close header-container -->
 		</div>  <!-- close top-wrapper -->
