@@ -31,13 +31,14 @@ $collectionSearchPage = !empty($SHOULD_USE_HARVESTPARAMS) ? '/collections/index.
 						?>
 						<!-- <div class="header-stacked-top"> -->
 							<div class="welcome-text bottom-breathing-room-rel">
-								<?= $LANG['H_WELCOME'] . ' ' . $USER_DISPLAY_NAME ?>!
+								<?= //$LANG['H_WELCOME'] . ' ' . $USER_DISPLAY_NAME ?>!
+
 							</div>
 						<!-- </div>
 						<div class="header-stacked-bottom"> -->
 							<span id="profile">
 								<form name="profileForm" method="post" action="<?= $CLIENT_ROOT . '/profile/viewprofile.php' ?>">
-									<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" name="profileButton" type="submit"><?= $LANG['H_MY_PROFILE'] ?></button>
+									<button class="button button-tertiary bottom-breathing-room-rel left-breathing-room-rel" name="profileButton" type="submit"><?= $USER_DISPLAY_NAME//$LANG['H_MY_PROFILE'] ?></button>
 								</form>
 							</span>
 							<span id="logout">
