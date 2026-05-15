@@ -45,6 +45,6 @@ This stylesheet is defined last and will override all previously loaded sheets. 
 /* Medium-large desktop screens and up */
 @media screen and (min-width: 1024px) {
   .brand-logo img {
-    max-height: var(--logo-height);
+    max-width: var(--logo-width);
   }
 }
