@@ -18,11 +18,21 @@ header {
 .top-wrapper {
   background-color: var(--menu-top-bg-color);
   min-width: 0;
+  display: flex;
+  justify-content: space-between; /* Spreads elements out */
+  align-items: center; /* Vertically centers items */
+  padding: 10px 20px;
+}
+
+.spacer, .top-login {
+  flex: 1; /* Both take up equal side space */
+  display: flex;
 }
 
 .top-login {
   padding-bottom: 20px;
   padding-right: 1rem;
+  justify-content: flex-end;
 }
 
 .top-login > .button {
@@ -56,11 +66,10 @@ nav.top-login > span > form{
 }
 
 .top-brand img {
-  width: var(--logo-width);
-  max-width: 100px;
-  height: auto;
+  height: 6rem;
   object-fit: contain; /* scale image keeping proportions */
   filter: brightness(1);
+  justify-content: center;
 }
 
 .top-brand .brand-name {
@@ -99,11 +108,13 @@ header a:hover {
 
 .image-container {
   width: 100%;
+  max-width: var(--logo-width);
 }
 
 .image-container img {
   width: 100%;
   height: auto;
+  /* max-height: 120px; */
 }
 
 /* MENU */

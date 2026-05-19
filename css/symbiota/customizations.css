@@ -3,3 +3,22 @@ Place your CSS customizations here.
 This stylesheet is defined last and will override all previously loaded sheets. You may reference variables defined in variables.css 
  */
  
+.bold-blue {
+  font-weight: 900;
+  color: var(--menu-top-bg-color);
+}
+
+.state-map {
+  float: right;
+  margin-left: 20px;   /* Adds space between image and text */
+  margin-bottom: 10px; /* Adds space below the image */
+  max-height: 300px;        /* Optional: sets a fixed size */
+  filter: drop-shadow(4px 4px 8px gray);  /* Contoured drop shadow for transparent png */
+}
+
+.contributor-row{clear:both}
+
+.contributor-column{
+    width: 50%;
+    float: left;
+}
