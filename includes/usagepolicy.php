@@ -39,21 +39,21 @@ $serverHost = GeneralUtil::getDomain();
 				include($SERVER_ROOT . '/includes/citationportal.php');
 			}
 			else {
-				echo $LANG['PUBLISHED_BY'];
-				if ($DEFAULT_TITLE) {
-					echo $DEFAULT_TITLE;
-				}
-				else {
-					echo $LANG['RESPONSIBLE_FOR'];
-				};
-				echo ' ' . $LANG['ACCESSED_THROUGH'] . ' ';
-				if ($DEFAULT_TITLE) {
-					echo $DEFAULT_TITLE;
-				}
-				else {
-					echo $LANG['RESPONSIBLE_FOR'];
-				};
-				echo ' ' . $LANG['PORTAL'] . ' ' . $serverHost . $CLIENT_ROOT . ', ' . date('Y-m-d') . ').';
+				// echo $LANG['PUBLISHED_BY'];
+				// if ($DEFAULT_TITLE) {
+				// 	echo $DEFAULT_TITLE;
+				// }
+				// else {
+				// 	echo $LANG['RESPONSIBLE_FOR'];
+				// };
+				// echo ' ' . $LANG['ACCESSED_THROUGH'] . ' ';
+				// if ($DEFAULT_TITLE) {
+				// 	echo $DEFAULT_TITLE;
+				// }
+				// else {
+				// 	echo $LANG['RESPONSIBLE_FOR'];
+				// };
+				echo 'BenthicNet. 2026+. https://benthicnet.org. Accessed on ' . date('Y-m-d') . '.';
 			};
 			?>
 		</blockquote>
