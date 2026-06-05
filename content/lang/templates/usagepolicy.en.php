@@ -12,12 +12,12 @@ $LANG['REC_CITATION'] = 'Recommended Citation Formats';
 $LANG['USE_FOLLOWING'] = 'Use one of the following formats to cite data retrieved from the';
 $LANG['NETWORK'] = 'network';
 $LANG['GENERAL_CITATION'] = 'General Citation';
-$LANG['PUBLISHED_BY'] = 'Biodiversity occurrence data published by';
+$LANG['PUBLISHED_BY'] = '';
 $LANG['RESPONSIBLE_FOR'] = 'Name of people or institutional responsible for maintaining the portal';
-$LANG['ACCESSED_THROUGH'] = '(accessed through the';
+$LANG['ACCESSED_THROUGH'] = '';
 $LANG['PORTAL'] = 'Portal';
 $LANG['USAGE_FROM'] = 'Usage of occurrence data from specific institutions';
-$LANG['ACCESS_EACH'] = 'Access each collection profile page to find the available citation formats';
+$LANG['ACCESS_EACH'] = 'Biodiversity occurrence data published by: <List of Collections> (Accessed through BenthicNet Data Portal, https://benthicnet.org/index.php, YYYY-MM-DD)';
 $LANG['EXAMPLE'] = 'Example';
 $LANG['NAME_INST_COLL'] = 'Name of Institution or Collection';
 $LANG['NAME_INST_OCCUR'] = 'Name of Institution or Collection. Occurrence dataset';
@@ -32,8 +32,8 @@ $LANG['OCC_REC_POLICY_1_2'] = 'will make every effort possible to control and do
 $LANG['OCC_REC_POLICY_2'] = 'cannot assume responsibility for damages resulting from misuse or
 					misinterpretation of datasets or from errors or omissions that may exist in the data.';
 $LANG['OCC_REC_POLICY_3'] = 'It is considered a matter of professional ethics to cite and acknowledge the work of other scientists that
-					has resulted in data used in subsequent research. We encourages users to
-					contact the original investigator responsible for the data that they are accessing.';
+					has resulted in data used in subsequent research. We encourage users to
+					contact the original investigator(s) responsible for the data that they are accessing.';
 $LANG['OCC_REC_POLICY_4'] = 'asks that users not redistribute data obtained from this site without permission for data owners.
 					However, links or references to this site may be freely posted.';
 $LANG['IMAGES'] = 'Images';
@@ -45,10 +45,10 @@ $LANG['NOTES_REC_IMG'] = 'Notes on Specimen Records and Images';
 $LANG['REC_IMG_DESC'] = 'Specimens are used for scientific research and because of skilled preparation and careful use they may last for hundreds of years. Some collections have specimens that were
 		collected over 100 years ago that are no longer occur within the area. By making these specimens available on the web as images, their availability and value improves without
 		an increase in inadvertent damage caused by use. Note that if you are considering making specimens, remember collecting normally requires permission of the landowner and,
-		in the case of rare and endangered plants, additional permits may be required. It is best to coordinate such efforts with a regional institution that manages a publicly
+		in the case of rare and endangered invertebrates, additional permits may be required. It is best to coordinate such efforts with a regional institution that manages a publicly
 		accessible collection.';
 $LANG['DISCLAIMER'] = 'Disclaimer';
-$LANG['DISCLAIMER_DESC'] = 'This data portal may contain specimens and historical records that are culturally sensitive. The collections include specimens dating back over 200 years
+$LANG['DISCLAIMER_DESC'] = 'This data portal may contain specimens and historical records that are culturally sensitive. The collections include specimens dating back over 175 years
 		collected from all around the world. Some records may also include offensive language. These records do not reflect the portal community\'s current viewpoint but rather the
 		social attitudes and circumstances of the time period when specimens were collected or cataloged.';
 ?>
