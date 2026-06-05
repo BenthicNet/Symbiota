@@ -59,19 +59,11 @@ $serverHost = GeneralUtil::getDomain();
 		</blockquote>
 
 		<h3><?php echo $LANG ['USAGE_FROM']; ?></h3>
-		<p><?php echo $LANG ['ACCESS_EACH']; ?>.</p>
 		<blockquote>
+			<p><?php echo $LANG ['ACCESS_EACH']; ?>.</p>
+
 			<p><?php echo $LANG ['EXAMPLE']; ?></p>
 			Biodiversity occurrence data published by: University of Wisconsin-Parkside Invertebrate Collection, Wisconsin Insect Research Collection (UW-Madison) (Accessed through BenthicNet Data Portal, https://benthicnet.org, 2026-05-18)
-			<!-- <?php
-			// $collData['collectionname'] = $LANG['NAME_INST_COLL'];
-			// $collData['dwcaurl'] = $serverHost . $CLIENT_ROOT . '/portal/content/dwca/NIC_DwC-A.zip';
-			// if (file_exists($SERVER_ROOT . '/includes/citationcollection.php')) {
-			// 	include($SERVER_ROOT . '/includes/citationcollection.php');
-			// } else {
-			// 	echo $LANG['NAME_INST_OCCUR'] . ' ' . 'http://gh.local/Symbiota/portal/content/dwca/' . $LANG['ACCESSED_VIA'] . ', ' . 'http://gh.local/Symbiota' . ', 2022-07-25.';
-			// }
-			?> -->
 		</blockquote>
 
 		<h2><?php echo $LANG ['RECORD_USE_POLICY']; ?></h2>
