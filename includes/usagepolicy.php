@@ -60,8 +60,8 @@ $serverHost = GeneralUtil::getDomain();
 
 		<h3><?php echo $LANG ['USAGE_FROM']; ?></h3>
 		<p><?php echo $LANG ['ACCESS_EACH']; ?>.</p>
-		<h4><?php echo $LANG ['EXAMPLE']; ?></h4>
 		<blockquote>
+			<p><?php echo $LANG ['EXAMPLE']; ?></p>
 			Biodiversity occurrence data published by: University of Wisconsin-Parkside Invertebrate Collection, Wisconsin Insect Research Collection (UW-Madison) (Accessed through BenthicNet Data Portal, https://benthicnet.org, 2026-05-18)
 			<!-- <?php
 			// $collData['collectionname'] = $LANG['NAME_INST_COLL'];
@@ -72,19 +72,6 @@ $serverHost = GeneralUtil::getDomain();
 			// 	echo $LANG['NAME_INST_OCCUR'] . ' ' . 'http://gh.local/Symbiota/portal/content/dwca/' . $LANG['ACCESSED_VIA'] . ', ' . 'http://gh.local/Symbiota' . ', 2022-07-25.';
 			// }
 			?> -->
-		</blockquote>
-		<h3><?php echo $LANG ['GLOSSARY']; ?></h3>
-		<p><?php echo $LANG ['PLEASE_CITE']; ?>:</p>
-		<blockquote>
-			<?php
-				if ($DEFAULT_TITLE) {
-					echo $DEFAULT_TITLE;
-				}
-				else {
-					echo $LANG['RESPONSIBLE_FOR'];
-				};
-				echo '. Glossary. ' . $serverHost . $CLIENT_ROOT . 'glossary/index.php. Accessed: ' . date('Y-m-d') . '.';
-			?>
 		</blockquote>
 
 		<h2><?php echo $LANG ['RECORD_USE_POLICY']; ?></h2>
