@@ -37,7 +37,7 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 			//Default Language
 			?>
 			<div>
-				<img src="<?= $CLIENT_ROOT ?>/images/layout/StateMap.png" class="state-map" alt="Map of Wisconsin showing all waterways colored by size from light to dark blue and an orange star where each participating institution is located.">
+				<img src="<?= $CLIENT_ROOT ?>/images/layout/vials.jpeg" class="state-map" alt="Two vials with caddisfly larvae and cases.">
 				<p>
 					<span class="bold-blue">Welcome to BenthicNet</span>, a collaborative project aimed at expanding access to collections of freshwater insects and other invertebrates that are used for biomonitoring. Initial funding for this project has been provided by the Freshwater Collaborative of Wisconsin.
 				</p>
