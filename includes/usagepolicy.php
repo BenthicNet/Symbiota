@@ -39,7 +39,7 @@ $serverHost = GeneralUtil::getDomain();
 				include($SERVER_ROOT . '/includes/citationportal.php');
 			}
 			else {
-				echo $LANG['PUBLISHED_BY'] #. ': ';
+				echo $LANG['PUBLISHED_BY'];
 				if ($DEFAULT_TITLE) {
 					echo $DEFAULT_TITLE;
 				}
